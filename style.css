@@ -2,10 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* nav related style */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 150px;
 
 }
 
@@ -24,9 +26,6 @@ nav {
     padding: 15px 35px;
 }
 
-
-
-
 .nav-title {
     color: #181818;
     font-size: 45px;
@@ -36,19 +35,31 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-
-
 }
 
 nav li {
     list-style: none;
     margin-left: 30px;
-
-
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
 
+}
+
+/* header related style */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    /* margin: 100px; */
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 300px;
 }
