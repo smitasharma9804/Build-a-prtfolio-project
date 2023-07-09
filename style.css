@@ -80,8 +80,10 @@ nav a {
 
 .banner .profile-pic {
     width: 300px;
-    margin-left: 335px;
+    margin-left: 350px;
     margin-top: 22px;
+    border-radius: 50%;
+
 }
 
 .banner-greeting {
@@ -199,4 +201,83 @@ main section {
 .download-cv {
     text-align: center;
     margin: 50px;
+}
+
+/* footer style section */
+.social-links>a>img {
+    height: 40px;
+    /* margin-left: -20px; */
+}
+
+.social-links {
+    /* margin-left: -200px; */
+    margin-right: 80px;
+}
+
+footer {
+    /* width: 50%; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff8f3;
+    align-items: center;
+
+
+}
+
+.footer .footer-column {
+    text-align: center;
+    /* width: 1000px; */
+    /* height: 500px; */
+
+
+}
+
+
+
+.section-title-2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 23px;
+    /* margin-left: 50px; */
+    text-align: justify;
+
+}
+
+.section-title-3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 23px;
+    margin-left: 240px;
+    text-align: justify;
+}
+
+.section-description-2 {
+    /* text-align: center; */
+    margin-top: -20px;
+    padding: 10px;
+    margin-left: 60px;
+    /* text-align: justify; */
+    width: 500px;
+
+}
+
+.social-links {
+    margin-top: -10px;
+    margin-left: 150px;
+    /* padding: 10px; */
+}
+
+.form {
+    margin-right: 100px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 30px;
 }
