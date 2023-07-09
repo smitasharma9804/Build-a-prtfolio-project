@@ -275,9 +275,14 @@ footer {
     margin-right: 100px;
 }
 
-input,
-textarea {
+input {
     display: block;
     margin-bottom: 20px;
     padding: 10px 30px;
+    box-shadow: 1px 1px 3px;
+}
+
+textarea {
+    padding: 30px 30px;
+    box-shadow: 2px 2px 10px;
 }
